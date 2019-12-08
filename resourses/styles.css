@@ -1,31 +1,31 @@
-@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro:regular,700&subset=latin,cyrillic);
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans&display=swap');
 *{
 cursor: url("larrow.gif"), auto;
 }
 body {
-    font-family: "Anonymous Pro";
-    font-size: 20px;
+    font-family: "Pontano Sans";
+    font-size: 25px;
     background-color: black;
     color:white;
 }
 
 a {
-    color: #CC0000;
+    color: #c62bff;
     text-decoration: none;
     cursor: url("larrow.gif"), auto;
 }
 h1 {
-    color:#fb3131;
+    color:#c62bff; 
     font-weight: normal;  
-    letter-spacing: 10px;
+    letter-spacing: 20px;
 }
 
 a:visited {
-    color: #CC0000;
+    color: #c62bff	;
 }
 
 a:hover {
-	color: #6c88b5;
+	color: #ffffff;
 }
 
 .primary{
@@ -38,7 +38,7 @@ a:hover {
   margin-bottom:3%;
   padding: 5px;
   border: 5px;
-  border-color: #B20000;
+  border-color: #ededed;
   border-style: double;
   box-shadow: white 0px 1px 7px 0px;
 }
@@ -62,7 +62,7 @@ a:hover {
 
 @keyframes borderfade{
 50%{
-   border-color: #470000;
+   border-color: #c62bff;
    border-radius: 1px;
 }
 }
