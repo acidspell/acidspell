@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Pontano+Sans&display=swap');
 *{
-cursor: url("larrow.gidf"), auto;
+cursor: url("larrow.gif"), auto;
 }
 body {
     font-family: 'Pontano Sans', sans-serif;
@@ -12,7 +12,7 @@ body {
 a {
     color: #c62bff;
     text-decoration: none;
-    cursor: url("larrow.gidf"), auto;
+    cursor: url("larrow.gif"), auto;
 }
 h1 {
     color:#c62bff; 
@@ -52,6 +52,14 @@ a:hover {
 	 text-align: center;
 }
 
+.links2{
+    letter-spacing: 6px;
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 17px;
+    padding-top: 0px;
+	padding-bottom: 0px;
+	 text-align: center;
+}
 
 }
 .fade-text{
